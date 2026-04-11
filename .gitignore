@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Obsidian (personal editor config)
+.obsidian/
+
+# Claude Code (credentials, sessions, debug)
+.claude/
+
+# Temporary Claude session files
+zi*
+
+# Claude Code skill archives (binary/packaged)
+*.skill
+
+# Binary files
+*.pptx
+*.png
+
+# Generated review/eval HTML
+*-review.html
+*-eval-review.html
+
+# Sensitive data - screening results & lead data
+採用/screening_*.md
+Penguin Studio/hnavi_leads_*.md
+
+# Project confidential documents
+pj-ono/
+
+# Empty directories (秘書 logs/outputs)
+秘書/_logs/
+秘書/outputs/
+
+# Test files
+実験/test_write.txt
