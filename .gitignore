@@ -4,8 +4,9 @@
 # Obsidian (personal editor config)
 .obsidian/
 
-# Claude Code (credentials, sessions, debug)
-.claude/
+# Claude Code (credentials, sessions, etc.) - skills only tracked
+.claude/*
+!.claude/skills/
 
 # Temporary Claude session files
 zi*
@@ -34,3 +35,4 @@ pj-ono/
 
 # Test files
 実験/test_write.txt
+.playwright-mcp/
