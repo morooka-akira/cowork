@@ -5,8 +5,9 @@
 .obsidian/
 
 # Claude Code (credentials, sessions, etc.) - skills only tracked
-.claude/*
-!.claude/skills/
+**/.claude/*
+!**/.claude/skills/
+!**/.claude/skills/**
 
 # Temporary Claude session files
 zi*
