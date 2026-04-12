@@ -1,0 +1,12 @@
+[project]
+name = "voice-poc"
+version = "0.1.0"
+description = "AivisSpeech Engine PoC: 対話台本 JSON から WAV 生成"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "pydub>=0.25.1",
+]
+
+[tool.uv]
+package = false

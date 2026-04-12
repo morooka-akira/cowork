@@ -1,0 +1,13 @@
+[project]
+name = "voice-chirp3hd"
+version = "0.1.0"
+description = "Google Cloud TTS Chirp3-HD PoC: 対話台本 JSON から WAV生成"
+requires-python = ">=3.10"
+dependencies = [
+    "google-cloud-texttospeech>=2.16.0",
+    "pydub>=0.25.1",
+    "google-auth>=2.0.0",
+]
+
+[tool.uv]
+package = false
