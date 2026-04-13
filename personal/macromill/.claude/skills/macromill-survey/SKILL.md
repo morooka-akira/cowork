@@ -28,7 +28,7 @@ URL:      https://monitor.macromill.com/
 
 ## メモリシステム
 
-**ファイルパス**: `/Users/mor/co-work/personal/macromill/.claude/skills/macromill-survey/survey-memory.json`
+**ファイルパス**: `/Users/mor/co-work/personal/macromill/survey-memory.json`
 
 ### セッション開始時に必ずやること
 
@@ -166,7 +166,7 @@ URL:      https://monitor.macromill.com/
 ブラウザを開く前に Read ツールで以下を読み込む：
 
 ```
-Read: /Users/mor/.claude-personal/skills/macromill-survey/survey-memory.json
+Read: /Users/mor/co-work/personal/macromill/survey-memory.json
 ```
 
 - ファイルが存在しない場合 → 上記の初期構造で Write ツールを使って新規作成し、読み込む
@@ -482,7 +482,7 @@ browser_navigate: https://monitor.macromill.com/airs/exec/showMonitorMyPageActio
 全アンケート完了後、**Write ツールでメモリファイルを更新**する。
 
 ```
-Write: /Users/mor/.claude-personal/skills/macromill-survey/survey-memory.json
+Write: /Users/mor/co-work/personal/macromill/survey-memory.json
 ```
 
 更新内容：
