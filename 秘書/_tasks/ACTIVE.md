@@ -5,5 +5,4 @@
 
 ---
 
-- [ ] リクルートマーカーのスクリーニング [Notion](https://www.notion.so/33daf136accb812784d6e790ae73e915)
-- [ ] カレンダーのレビュー [Notion](https://www.notion.so/33daf136accb81568686d423fe20cf4a)
+（現在アクティブなタスクはありません）
