@@ -37,3 +37,6 @@ pj-ono/
 # Test files
 実験/test_write.txt
 .playwright-mcp/
+
+# Work directory (temporary work files)
+採用/.work/
