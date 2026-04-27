@@ -27,7 +27,8 @@ LinkedIn / YouTrust のプロフィール情報をもとに採用要件チェッ
 | 操作 | 使用ツール |
 |------|-----------|
 | ページ移動 | `browser_navigate` |
-| ページ内容取得 | `browser_snapshot`（アクセシビリティツリー）|
+| ページ内容取得（YouTrust等） | `browser_snapshot`（アクセシビリティツリー）|
+| ページ内容取得（LinkedIn） | `browser_evaluate` で `document.querySelector('main').innerText.substring(0, 5000)` |
 | JavaScript実行 | `browser_evaluate` |
 | スクロール | `browser_evaluate` で `window.scrollBy(0, N)` または `browser_press_key` で "PageDown" |
 | クリック | `browser_click` |
@@ -45,11 +46,21 @@ LinkedIn / YouTrust のプロフィール情報をもとに採用要件チェッ
 1. リクルートマーカーにアクセス → ログイン確認・必要ならログインガイド
 2. YouTrustのログイン確認（事前チェック）
 3. 作業リストの特定（URLまたはリスト名）
-4. リストのグリッドからLinkedIn/YouTrustリンク＋テキスト情報を収集
-5. 各候補者のプロフィールを閲覧 → スキル・技術スタックを抽出 → 要件判定
-6. 結果をマークダウンファイルに出力
+4. リストのグリッドからLinkedIn/YouTrustリンク＋テキスト情報を収集 → candidates_raw.json保存
+5. バッチ処理（10名ずつ）：プロフィール巡回 → 中間保存 → サブエージェント判定 → 判定結果保存
+6. 全バッチ完了後、結果をマークダウンファイルに出力
 7. チャットで完了報告
 ```
+
+## 重要: コンテキスト節約とレジリエンス設計
+
+70名超の候補者を処理する場合、1人ずつのプロフィール巡回でコンテキストが溢れる。
+以下の原則を必ず守ること：
+
+1. **中間ファイル保存を必ず行う** — プロフィール情報は都度ファイルに保存し、メモリに頼らない
+2. **バッチ処理（10名単位）** — 10名分のプロフィール収集 → ファイル保存 → サブエージェント判定 → 次のバッチ
+3. **LinkedInは `browser_evaluate` でテキスト一括取得** — `browser_snapshot` は使わない（後述）
+4. **進捗ファイルで再開可能に** — コンテキストリセット時も前回の続きから再開できる
 
 ---
 
@@ -228,19 +239,57 @@ JSON.stringify(window.__allCandidates);
 
 収集した `lines` 配列には会社名・タイトル・ヘッドラインが含まれ、Step 5の判定で活用する。
 
+**Step F: candidates_raw.json に保存**
+
+全データを取得した後、Writeツールで `/Users/mor/co-work/採用/candidates_raw.json` に保存する。
+この JSON は以降のバッチ処理の入力として使い、コンテキストリセット時の再開にも利用する。
+
 ---
 
-## Step 5: 候補者のプロフィール確認とスキル抽出
+## Step 5: 候補者のプロフィール確認とスキル抽出（バッチ処理）
 
 **【最重要ルール】全候補者のLinkedInまたはYouTrustプロフィールを必ず1人ずつ確認すること。**
 リスト上の情報だけで判定禁止。プロフィールを開かずに「判定保留」にするのも禁止。
 
-### プロフィールの開き方（Playwright版）
+### バッチ処理の流れ
 
-新しいページに移動する場合は `browser_navigate` でURLに直接アクセスする。
-複数タブを扱う場合は `browser_tabs` で確認しながら作業する。
+候補者が多い場合（20名超）、コンテキスト溢れを防ぐために **10名単位のバッチ** で処理する。
 
-プロフィールを確認したら **リクルートマーカーのリストに戻るために** 元のURLへ再度 `browser_navigate` する。
+```
+candidates_raw.json から10名ずつ取得
+  ↓
+各候補者のプロフィールを巡回（LinkedIn/YouTrust）
+  ↓
+プロフィール情報を candidates_profiles.json に追記保存
+  ↓
+10名分まとめて Opus サブエージェントで判定（Step 6）
+  ↓
+判定結果を screening_judgments.json に追記保存
+  ↓
+screening_progress.json の進捗を更新
+  ↓
+次の10名バッチへ
+```
+
+### 進捗管理ファイル
+
+**`screening_progress.json`** — コンテキストリセット時に続きから再開するため
+
+```json
+{
+  "list_url": "https://app.recruit-marker.jp/list/person-list/XXXXX",
+  "list_name": "リスト名",
+  "total_candidates": 70,
+  "processed_slugs": ["slug1", "slug2"],
+  "current_batch": 3,
+  "last_updated": "2026-04-16T10:30:00Z"
+}
+```
+
+### プロフィールの開き方
+
+`browser_navigate` でURLに直接アクセスする。
+リクルートマーカーに戻る必要はない（バッチ内で連続してプロフィールを巡回すればよい）。
 
 ### プロフィール情報源の優先順位
 
@@ -251,26 +300,49 @@ JSON.stringify(window.__allCandidates);
 
 **LinkedInも必ず確認する：**
 - 3次つながりでもAbout・Skills・Experienceが表示されるケースが多い
-- **必ずページを下までスクロールして全セクションを確認すること**
 
-### プロフィールの読み取り手順（Playwright版）
+### プロフィールの読み取り手順
 
 **YouTrustの場合：**
 1. `browser_navigate` でプロフィールURLにアクセス
 2. `browser_snapshot` でページ全体のテキストを取得
 3. スキルタグ・自己紹介文・職歴から技術キーワードを抽出
 
-**LinkedInの場合：**
+**LinkedInの場合（重要: browser_snapshotは使わない）：**
+
+LinkedInのログイン済みページでは `browser_snapshot` や CSSセレクタ（`h1`, `.text-body-medium`, `#about`, `#experience`）で要素を取得しても空/nullが返る。
+**唯一確実に動作する方法:**
+
 1. `browser_navigate` でプロフィールURLにアクセス
-2. `browser_snapshot` でページ取得（初回）
-3. スクロールを複数回実行:
+2. ページ読み込みを2秒待機
+3. 以下のJavaScriptで全テキストを一括取得:
    ```javascript
-   // browser_evaluate（複数回実行）
-   window.scrollBy(0, 800);
+   // browser_evaluate で実行
+   document.querySelector('main').innerText.substring(0, 5000)
    ```
-   または `browser_press_key` で "PageDown" を5〜8回実行
-4. `browser_snapshot` を再実行（遅延読み込みセクションが表示される）
-5. About・Experience・Skillsセクションから技術情報を抽出
+4. 取得テキストからAbout・Experience・Skills情報を抽出
+
+**注意:** `browser_snapshot` でLinkedInプロフィールを読もうとすると、アクセシビリティツリーに
+主要セクションが含まれず空の結果になる。必ず `browser_evaluate` を使うこと。
+
+### プロフィール取得後の中間保存
+
+各バッチ（10名分）のプロフィール情報を取得したら、即座にファイルに保存する:
+
+```json
+// candidates_profiles.json に追記
+{
+  "slug": "john-doe",
+  "name": "John Doe",
+  "linkedin_url": "https://...",
+  "youtrust_url": "https://...",
+  "profile_text": "取得した全テキスト",
+  "extracted_skills": ["React", "Go", "AWS"],
+  "batch": 1
+}
+```
+
+これにより、コンテキストが溢れても既に取得済みのプロフィール情報は失われない。
 
 ### 過去の判定ミス事例（必ず参照すること）
 
@@ -309,39 +381,51 @@ JSON.stringify(window.__allCandidates);
 
 ---
 
-## Step 6: チェック要件による判定（Opusサブエージェントに委託）
+## Step 6: チェック要件による判定（Opusサブエージェントにバッチ委託）
 
-**各候補者のプロフィール情報が揃ったら、以下の判定はOpusサブエージェントに委託する。**
-プロフィールから収集した全テキスト情報（技術スタック・職歴・自己紹介・在籍期間等）をまとめて
-Agentツールでサブエージェントを起動し、判定を依頼する。
+**10名分のプロフィール情報が揃うたびに、Opusサブエージェントに判定を委託する。**
+全候補者を一度に判定しようとするとコンテキストが溢れるため、必ずバッチ単位で実行する。
 
 ### Opusサブエージェントへの委託方法
 
-全候補者の情報を収集し終えたら（または数名分まとめて）、以下の形式でサブエージェントを呼び出す：
+各バッチ（10名分）のプロフィール収集完了後、以下の形式でサブエージェントを呼び出す：
 
 ```
 Agentツールを使用:
   model: claude-opus-4-6
   prompt: |
-    以下の候補者リストを採用要件に基づいて判定してください。
+    以下の候補者10名を採用要件に基づいて判定してください。
 
     ## 採用要件
     - 要件1: 日本国籍であること
     - 要件2: Webエンジニアとして2〜3年以上の経験
     - 要件3: フルスタック経験（サーバーサイド + フロントエンド）
 
-    ## 候補者情報
-    [収集した候補者のプロフィール情報を貼り付け]
+    ## 候補者情報（バッチ N/M）
+    [当該バッチ10名分のプロフィール情報を貼り付け]
 
     ## 判定基準の詳細
-    [下記「判定基準」セクションを参照]
+    [下記「判定基準」セクションの内容を全文貼り付け]
 
     ## 出力形式
-    各候補者について: 名前, 判定（合格/不合格/保留）, 判定理由（具体的に）, 確認した技術スタック
-    をJSON配列で返してください。
+    各候補者について以下のJSON配列で返してください:
+    [{ "name": "名前", "slug": "linkedin-slug", "judgment": "合格/不合格/保留",
+       "reason": "判定理由", "skills": ["React", "Go"] }]
 ```
 
-サブエージェントの返答をそのまま採用してStep 7の出力に使用する。
+### 判定結果の保存
+
+サブエージェントの返答を `screening_judgments.json` に追記保存する。
+全バッチ完了後、このファイルからStep 7のMDレポートを生成する。
+
+```json
+// screening_judgments.json
+[
+  { "name": "候補者A", "slug": "...", "judgment": "合格", "reason": "...", "skills": [...], "batch": 1 },
+  { "name": "候補者B", "slug": "...", "judgment": "不合格", "reason": "...", "skills": [...], "batch": 1 },
+  ...
+]
+```
 
 ---
 
@@ -388,10 +472,12 @@ Agentツールを使用:
 
 ## Step 7: 結果の出力
 
-全候補者処理完了後、以下のフォーマットでMDファイルを保存する。
+全バッチの判定完了後、`screening_judgments.json` から最終レポートを生成する。
 
-**ファイル名:** `screening_結果_YYYY-MM-DD.md`（当日の日付）
+**ファイル名:** `screening_結果_{リスト名}_YYYY-MM-DD.md`（リスト名 + 当日の日付）
 **保存先:** `/Users/mor/co-work/採用/`
+
+**重要:** ファイル名にリスト名を含めること。同日に複数のスクリーニングを実施する場合（例: 若手エンジニアとスタジオテックリード）にファイルが衝突するのを防ぐ。
 
 ```markdown
 # リクルートマーカー スクリーニング結果
@@ -402,6 +488,7 @@ Agentツールを使用:
 - 対象人数: XX名
 - 要件非該当: XX名
 - 判定保留: XX名
+- 合格: XX名
 
 ---
 
@@ -458,9 +545,13 @@ Agentツールを使用:
 | リクルートマーカーの未ログイン | Playwrightブラウザでのログインをガイド |
 | YouTrustの未ログイン | Playwrightブラウザでのログインをガイド |
 | LinkedInのCAPTCHA表示 | ユーザーに報告・YouTrustへ切り替え |
+| LinkedInで `browser_snapshot` が空 | `browser_evaluate` + `document.querySelector('main').innerText` に切り替え（これが正規手順） |
 | プロフィールが非公開 | 「プロフィール非公開のため判定不能」として記録 |
 | Playwright MCPの接続エラー | `browser_tabs` で状態確認・再接続を試みる |
 | セッション切れ（再ログインが必要） | 再ログインフロー（Step 1-3 / Step 2-3）へ |
+| コンテキスト溢れ・コンパクション発生 | `screening_progress.json` を読んで未処理の候補者から再開。`candidates_raw.json` と `candidates_profiles.json` は既に保存済みなので再収集不要 |
+| Writeツールで「File has not been read yet」エラー | 新規ファイルでもまず `Read` を実行（存在しないエラーが返る）→ その後 `Write` を実行 |
+| 同名ファイルが既に存在 | ファイル名にリスト名を含める命名規則（Step 7参照）で衝突を防ぐ。それでも衝突する場合は末尾に `_2` を付加 |
 
 ## セッション管理のメモ
 
