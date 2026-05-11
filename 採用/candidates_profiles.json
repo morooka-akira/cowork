@@ -1,0 +1,623 @@
+[
+  {
+    "slug": "%E7%A7%80%E5%93%B2-%E5%B1%B1%E9%87%8E-7abbab171",
+    "name": "山野 秀哲",
+    "linkedin_url": "https://www.linkedin.com/in/%E7%A7%80%E5%93%B2-%E5%B1%B1%E9%87%8E-7abbab171",
+    "youtrust_url": "https://youtrust.jp/users/hidenoriyamano",
+    "batch": 1,
+    "profile_text": "現職: GreenSnap株式会社 サーバーサイドエンジニア（2021年1月〜現在、5年4ヶ月）、iOSエンジニア（2019年9月〜現在）。前職: 株式会社大都（2019年1〜8月）、ワークスアプリケーションズ（2017年4月〜2019年1月）。学歴: 同志社大学大学院 理工学研究科。自己紹介（LinkedIn）: AngularでフロントエンドとJava Spring Frameworkサーバーサイド実装の経験あり。YouTrustスキル: MySQL、Scala、Swift、データ分析。",
+    "extracted_skills": ["Angular", "Java", "Spring Framework", "MySQL", "Scala", "Swift", "iOS"]
+  },
+  {
+    "slug": "tabamarine",
+    "name": "Hiroki Taba",
+    "linkedin_url": "https://www.linkedin.com/in/tabamarine",
+    "youtrust_url": "https://youtrust.jp/users/5afc6b921ddb367e6c88a1391686cd80",
+    "batch": 1,
+    "profile_text": "24卒。現職: 株式会社GROWTH VERSE Webエンジニア（2024年11月〜現在、1年5ヶ月）。前職: WED株式会社（2024年4月〜10月、7ヶ月）。インターン: WED株式会社（2023年9月〜2024年3月）、レバレジーズ（2022年9月〜2023年10月）。学歴: 福島県立会津大学コンピュータ理工学部。YouTrustスキル: React 1年以上、React.js 1年以上、TypeScript 1年以上、Go 1年未満、Next.js 1年未満、Laravel 1年未満、PHP 1年未満、GCP、CSS、HTML、SQL。言語: 日本語ネイティブ、英語日常会話。",
+    "extracted_skills": ["React", "TypeScript", "Go", "Next.js", "Laravel", "PHP", "GCP", "CSS", "HTML"]
+  },
+  {
+    "slug": "momo-watanabe-b0959b114",
+    "name": "Momo Watanabe",
+    "linkedin_url": "https://www.linkedin.com/in/momo-watanabe-b0959b114",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "She/Her。現職: 株式会社リブセンス Infrastructure Engineer（2020年3月〜現在、6年2ヶ月）。前職: 同社 Server-side Developer（2017年12月〜2020年2月）、dip Frontend Developer（2016年10月〜2017年5月）、dip Server-side Developer（2017年6月〜11月）。山形県庁Civil Servant（2014年4月〜2016年2月）。学歴: 東北大学 人文社会学科（文学部）、デジタルハリウッド大学 web design（2016年）。スキル: CSS、Go。",
+    "extracted_skills": ["CSS", "Go", "Infrastructure"]
+  },
+  {
+    "slug": "%E5%BA%B8%E4%BB%8B-%E9%AB%98%E6%A9%8B-88137292",
+    "name": "高橋 庸介",
+    "linkedin_url": "https://www.linkedin.com/in/%E5%BA%B8%E4%BB%8B-%E9%AB%98%E6%A9%8B-88137292",
+    "youtrust_url": "https://youtrust.jp/users/yosan",
+    "batch": 1,
+    "profile_text": "現職: Mercari, Inc. ソフトウェアエンジニア（2022年7月〜現在）。前職: Cookpad（2018年8月〜2022年6月）、LIFULL（2015年9月〜2018年7月）、Toshiba（2009年4月〜2015年8月）。学歴: 東京工業大学 集積システム専攻修士（2003〜2009年）。自己紹介: メルカリShopsのgRPC APIサーバ開発。Cookpadではキオンアプリ開発（Swift/iOS）、Firebase、WebアプリのReact/Next.js/Node TypeScript開発経験あり。スキル: Swift（スキルテスト合格）、React.js（スキルテスト合格）。YouTrustスキル: AWS、Go、Swift、データ分析。",
+    "extracted_skills": ["Swift", "React", "Next.js", "TypeScript", "Node.js", "gRPC", "GCP", "Go", "AWS"]
+  },
+  {
+    "slug": "hiroki-kishi-2394b945",
+    "name": "Hiroki Kishi",
+    "linkedin_url": "https://www.linkedin.com/in/hiroki-kishi-2394b945",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "現職: 株式会社Finatext ソフトウェアエンジニア（2023年1月〜現在、3年4ヶ月）。前職: Rakuten（2018年7月〜2023年1月、4年7ヶ月）、株式会社Fablic（フリル/ラクマ）（2016年6月〜2018年6月、2年1ヶ月）、ナビタイムジャパン（2009年4月〜2016年5月）。学歴: 早稲田大学（2005〜2009年）。スキル: TOEIC、TOEFL（技術スキルの記載なし）。",
+    "extracted_skills": []
+  },
+  {
+    "slug": "hey-shota-takahashi",
+    "name": "T. Shota",
+    "linkedin_url": "https://www.linkedin.com/in/hey-shota-takahashi",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "He/Him。岡山在住。現職: Senior Software Engineer, Dev4USA（2014年7月〜現在、11年10ヶ月）。前職: Senior Software Engineer, Rikkeisoft フリーランス（2013年2月〜2018年8月、5年7ヶ月）。学歴: 岡山大学 Computer Science学士（2011〜2015年）。自己紹介: Sr. React/TypeScript/Python/Django/Flask Full Stack Engineer with 8 years of experience。スキル: React.js、Python、FastAPI。資格: Python、AWS Solutions Architect Professional。",
+    "extracted_skills": ["React", "TypeScript", "Python", "Django", "Flask", "FastAPI", "AWS"]
+  },
+  {
+    "slug": "masaharunishiya",
+    "name": "Masaharu Nishiya",
+    "linkedin_url": "https://www.linkedin.com/in/masaharunishiya",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "現職: Capy Inc. Frontend Developer and International Sales（2018年5月〜現在、8年）。Co-Founder, Galileo（2019年2月〜2021年5月）。学歴: 京都大学 Biology 学士（2014〜2018年）、京都大学院 Developmental Biology修士（2018年〜現在）。自己紹介: Skilled in React, React Native, Ruby on Rails, Molecular Biology。言語: 英語（ビジネス中級）、日本語（母国語またはバイリンガル）。スキル: Python、Front-end Engineering。",
+    "extracted_skills": ["React", "React Native", "Ruby on Rails", "Python"]
+  },
+  {
+    "slug": "kohsuke-ohshima",
+    "name": "大島 宏介（O. Kohsuke）",
+    "linkedin_url": "https://www.linkedin.com/in/kohsuke-ohshima",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "He/Him。現職: Software Engineer, Freelance（2024年1月〜現在、2年4ヶ月）。前職: Senior Web Application Developer, Techouse Inc.（2022年7月〜2023年11月、1年5ヶ月）。前々職: Web Application Developer, Ligne（2019年8月〜2021年10月、2年3ヶ月）、Junior Web Application Developer, Stily（2017年3月〜2019年3月、2年1ヶ月）。学歴: 中央大学 Translation Studies学士（2006〜2010年）。スキル: Back-End Web Development、React.js。技術スタック: Ruby on Rails、AWS、Vue.js、Nuxt.js、CSS、HTML。言語: 日本語母国語。",
+    "extracted_skills": ["Ruby on Rails", "AWS", "Vue.js", "Nuxt.js", "React.js", "CSS", "HTML"]
+  },
+  {
+    "slug": "%E4%BF%AE%E5%8F%B3-%E5%AF%8C%E5%B2%A1-911427228",
+    "name": "富岡 修右（Shu Tomioka）",
+    "linkedin_url": "https://www.linkedin.com/in/%E4%BF%AE%E5%8F%B3-%E5%AF%8C%E5%B2%A1-911427228",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "LinkedInページが404（存在しない）。リクルートマーカー上では「Omron Software System Engineer」と表示されている。",
+    "extracted_skills": []
+  },
+  {
+    "slug": "tomoya-kuroda",
+    "name": "Kuroda Tomoya（黒田 知也）",
+    "linkedin_url": "https://www.linkedin.com/in/tomoya-kuroda",
+    "youtrust_url": null,
+    "batch": 1,
+    "profile_text": "He/Him。現職: Product Manager, FreakOut, Inc.（2024年11月〜現在、1年6ヶ月）。前職: Full Stack Programmer, Impact North Inc（カナダ）（2020年9月〜2024年8月、4年）。学歴: 電気通信大学 情報学部 学士（2012〜2016年）、Georgian College（カナダ、2017〜2019年）。自己紹介: Full Stack developer specializing in HTML、CSS、JavaScript、PHP。技術スタック: JavaScript、PHP、React、Next.js、MongoDB、Spring Boot。スキル: CSS、React.js。現在はPMとして勤務（1年6ヶ月）。",
+    "extracted_skills": ["HTML", "CSS", "JavaScript", "PHP", "React", "Next.js", "MongoDB", "Spring Boot"]
+  },
+  {
+    "slug": "yusaku-sekine-449245258",
+    "name": "Yusaku Sekine",
+    "linkedin_url": "https://www.linkedin.com/in/yusaku-sekine",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: Web Application Developer at BASE, Inc.（2024年10月〜現在, 1年7ヶ月）: PHP, CakePHP, Vue.js。前職: Back End Developer at 株式会社Relic（2021年4月〜2024年8月, 3年5ヶ月）: PHP, JavaScript。学歴: 東洋大学 Information学士（2017年〜2021年）。自己紹介: I use PHP TypeScript and AWS in work. And I use Go, Rust, Python in hobby. スキル: CakePHP, Vue.js, PHP, Laravel。資格: AWS Certified Developer, AWS Certified Solutions Architect Associate。",
+    "extracted_skills": ["PHP", "CakePHP", "Vue.js", "TypeScript", "AWS", "Go", "Laravel"]
+  },
+  {
+    "slug": "fumiya-sugiyama-6156871b7",
+    "name": "Sugiyama Fumiya",
+    "linkedin_url": "https://www.linkedin.com/in/fumiya-sugiyama-6156871b7",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "ヘッドライン: Freelance Software Engineer with 10+ Years Experience | Java / TypeScript | Remote-First。現職: Freelance Software Engineer（2024年7月〜現在）: Java, TypeScript, JavaScript, Node.js, Prisma/PostgreSQL。前職: Power to Edge Co., Ltd. Webプログラマー（2015年4月〜2024年6月, 9年3ヶ月）: Java, React.js。学歴: 横浜国立大学 電子情報システム学士（2011〜2015年）。スキル: React.js（職歴紐付き）。",
+    "extracted_skills": ["Java", "TypeScript", "JavaScript", "Node.js", "React.js"]
+  },
+  {
+    "slug": "kazuyuki-nakatsu-625188b6",
+    "name": "Kazuyuki Nakatsu",
+    "linkedin_url": "https://www.linkedin.com/in/kazuyuki-nakatsu-625188b6",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "在住: 日本 大阪府 吹田市。現職: Backend engineer at Repohappy（2023年4月〜2023年9月, 6ヶ月）: CakePHP, AWS。前職: Software Engineer at FlyData（2018年6月〜2020年2月, 1年9ヶ月）: Git。Associate Software Engineer at FlyData（2018年5月〜2019年2月, 10ヶ月）: Angular 6, AWS（カリフォルニア）。学歴: Foothill College Computer Science（2014〜2018年）: カリフォルニアのコミュニティカレッジ。インターン時代にiOSプロジェクト（Swift）、Angular 6フロントエンド、AWSを使用。スキル: Front-End Development, API Development。",
+    "extracted_skills": ["CakePHP", "Angular", "Swift", "AWS"]
+  },
+  {
+    "slug": "ayumi-uki",
+    "name": "Uki Ayumi",
+    "linkedin_url": "https://www.linkedin.com/in/ayumi-uki",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: Software Engineer at Mercari, Inc.（2024年4月〜現在, 2年1ヶ月）: PHP, Go, TypeScript, Kubernetes。インターン: Mercari, Inc.（2022年9月〜2023年2月, 6ヶ月）。学歴: 東京工業大学 Information and Communication Engineering修士（2022年4月〜2024年3月）、学士（2018年4月〜2022年3月）。言語: 日本語（母国語またはバイリンガル）、英語（ビジネス上級）。",
+    "extracted_skills": ["PHP", "Go", "TypeScript", "Kubernetes"]
+  },
+  {
+    "slug": "%E5%84%AA-%E6%B8%A1%E9%82%8A-7a49a4152",
+    "name": "渡邊 優",
+    "linkedin_url": "https://www.linkedin.com/in/%E5%84%AA-%E6%B8%A1%E9%82%8A-7a49a4152",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: システムソフトウェアエンジニア at 日本エンブレース（2018年8月〜現在, 7年9ヶ月）。前職: AT&C株式会社（2017年11月〜2018年7月, 9ヶ月）: Angular, WordPress開発, Docker, Ionic。スマートスケープ株式会社（2017年4月〜2017年9月, 6ヶ月）。学歴: 法政大学 外国語英文学科（2013年〜2017年）。技術: JavaScript（Angular, TypeScript含む）, PHP, Java（Spring）, Python, HTML5, CSS, WordPress, Ionic。",
+    "extracted_skills": ["JavaScript", "Angular", "TypeScript", "PHP", "Java", "Spring", "Python", "HTML5", "CSS"]
+  },
+  {
+    "slug": "%E6%8B%93%E7%9C%9F-%E5%8B%9D%E5%8F%88-a9782bb4",
+    "name": "勝又 拓真",
+    "linkedin_url": "https://www.linkedin.com/in/takuma-katsumata-dev",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: エンジニア at 株式会社Gaudiy（2019年4月〜現在, 7年1ヶ月）。前職: ヤフー株式会社（2017年4月〜2019年4月, 2年1ヶ月）。学歴: 東京農工大学（2013年〜2017年）。自己紹介: Typescript / Next.js / Serverless / Blockchain中心に新しい仕組み作り興味あり。スキル: ソフトウェア開発, エンジニアリング（具体的な技術スタックは少ない）。",
+    "extracted_skills": ["TypeScript", "Next.js"]
+  },
+  {
+    "slug": "kiriko-yano-52146636",
+    "name": "Yano Kiriko",
+    "linkedin_url": "https://www.linkedin.com/in/kiriko-yano-52146636",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: バックエンド開発者 at 株式会社カオナビ（2020年9月〜現在, 5年8ヶ月）。フリーランス（2020年6月〜2020年10月, 5ヶ月）: PHP7, Laravel6, MySQL, AWS。前職: CyberZ（2018年7月〜2020年6月, 2年）: ゲームプレイ配信プラットフォーム開発, PHP, TypeScript。パーソルキャリア（2015年6月〜2018年6月, 3年1ヶ月）。GREE, Inc.（2012年4月〜2015年5月, 3年2ヶ月）。学歴: 東京理科大学 Computer/Information Technology Administration and Management学士（2007年〜2012年）。スキル: PHP。",
+    "extracted_skills": ["PHP", "TypeScript", "Laravel", "AWS"]
+  },
+  {
+    "slug": "takuya-o",
+    "name": "Takuya O.",
+    "linkedin_url": "https://www.linkedin.com/in/takuya-o",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: Preferred Networks, Inc. ソフトウェアエンジニア（2021年7月〜2024年11月, 3年5ヶ月）: Istio, Kubernetes, Matlantisプロジェクトリード。前職: ExaWizards Inc. Software Engineer Backend engineer（2019年8月〜2021年6月, 1年11ヶ月）。Yahoo! JAPAN Software Engineer（2018年4月〜2019年7月, 1年4ヶ月）。学歴: 東京工業大学 Physics修士（2016年4月〜2018年3月）。自己紹介: Backend Software Engineer, 6 year experience. FAQ SearchSystem(Elasticsearch, Python, VueJS), HR staffing tool (Typescript, Express.js, MongoDB, VueJS), Advertisement Server(C++, Golang, Cassandra)。スキル: Istio, Kubernetes。",
+    "extracted_skills": ["Python", "Vue.js", "TypeScript", "Express.js", "Go", "C++", "Elasticsearch"]
+  },
+  {
+    "slug": "yuriko-takatsuka-a035a5189",
+    "name": "Takatsuka Yuriko",
+    "linkedin_url": "https://www.linkedin.com/in/yuriko-takatsuka-a035a5189",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: Webエンジニア at 株式会社グラッドキューブ（2021年4月〜現在, 5年1ヶ月）。学歴: 近畿大学 Information Technology修士（2019年〜2021年）、学士（2015年〜2019年）。自己紹介: 主に使用: TypeScript（フロント/バック共通）、Vue.js。興味技術: Rust, Solid.js。資格: AWS SAA/DVA, GCP Associate。スキル: Vue.js, Node.js。",
+    "extracted_skills": ["TypeScript", "Vue.js", "Node.js", "AWS"]
+  },
+  {
+    "slug": "takumi-kurokawa-0a8a7214b",
+    "name": "Kurokawa Takumi",
+    "linkedin_url": "https://www.linkedin.com/in/takumi-kurokawa-0a8a7214b",
+    "youtrust_url": null,
+    "batch": 3,
+    "profile_text": "現職: Frontend Engineer at aptpod,Inc.（2019年7月〜2021年6月, 2年）: TypeScript, React。前職: Sales Manager at Kobayashi Manufacture（2015年9月〜2019年6月, 3年10ヶ月）: 非エンジニア職。Honda Motor Co., Ltd. System Engineer（2014年4月〜2015年8月, 1年5ヶ月）。学歴: 神戸大学 International Relationships学士（2012年〜2014年）。自己紹介: Frontend Engineer with TypeScript, React/Redux, Node.js. 5years careers in Engineering industry。スキル: React.js, TypeScript。職歴が2021年で最後の更新（現職情報不明）。",
+    "extracted_skills": ["TypeScript", "React", "Node.js"]
+  },
+  {
+    "slug": "nh19920406",
+    "name": "Naoyuki Hayasaka",
+    "linkedin_url": "https://www.linkedin.com/in/nh19920406",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: システムエンジニア at コスモ開発（株）（2017年5月〜2021年4月, 4年）。前職: 株式会社アウトソーシングテクノロジー（2016年4月〜2017年3月, 1年）。学歴: Code Chrysalis Immersive Course（2021年5月〜7月）、成蹊大学 物質生命理工学科学士（2012年〜2016年）。自己紹介: フルスタックエンジニア。前職は独立系SIerで大手生命保険会社の業務用アプリケーション開発。Code Chrysalisの日本語イマーシブコース卒業。スキル: React.js、ウェブアプリケーション。プロジェクト: TELLaLIFE、EmoFace（2021年7月）。",
+    "extracted_skills": ["React.js"]
+  },
+  {
+    "slug": "%E6%B4%8B%E8%BC%94-%E5%80%89%E8%A6%8B-02b516104",
+    "name": "倉見 洋輔",
+    "linkedin_url": "https://www.linkedin.com/in/%E6%B4%8B%E8%BC%94-%E5%80%89%E8%A6%8B-02b516104",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: Software Engineer at Recruit technologies（2020年2月〜現在, 6年3ヶ月）。前職: フロントエンドエンジニア at 株式会社FOLIO（2018年3月〜2019年11月, 1年9ヶ月）。フロントエンドエンジニア at 株式会社wacul（2015年5月〜2018年2月, 2年10ヶ月）: node.js, AngularJS。NRI（2010年4月〜2015年4月, 5年1ヶ月）: JavaEE、大規模Webアプリケーション開発。学歴: 京都大学 複雑系科学修士（2004年〜2010年）。スキル: JavaScript, TypeScript。自己紹介: 大手SIerに新卒で入社後Javaによるミドルウェア開発。並行して大規模Webアプリケーション開発。2015年にWeb系ベンチャーへ転職し自社サービスのフロントエンド設計・開発に従事。",
+    "extracted_skills": ["JavaScript", "TypeScript", "AngularJS", "Node.js", "Java"]
+  },
+  {
+    "slug": "kentaro-oshimoto-4114a0196",
+    "name": "Kentaro Oshimoto",
+    "linkedin_url": "https://www.linkedin.com/in/kentaro-oshimoto",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: Frontend Web Developer at Holon Inc.（2023年6月〜現在, 2年11ヶ月）: CSS, HTML, EJS, Webpack。フリーランス Full Stack Web Developer（2023年1月〜2023年6月, 6ヶ月）: HTML, CSS, JavaScript, TypeScript, Node.js, React.js, Next.js, MongoDB, MySQL。前職: Linguistic game tester at DIGITAL Hearts Holdings（2021年1月〜2023年4月, 2年4ヶ月）。学歴: Temple University Japan Economics（2017年〜2020年）、El Camino College Economics（2015年〜2017年、カリフォルニア）。自己紹介: self-taught Fullstack Web Developer。",
+    "extracted_skills": ["JavaScript", "TypeScript", "Node.js", "React.js", "Next.js", "MongoDB", "MySQL"]
+  },
+  {
+    "slug": "hikari-kosuda-b27664180",
+    "name": "Kosuda Hikari",
+    "linkedin_url": "https://www.linkedin.com/in/hikari-kosuda-b27664180",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: Software Engineer at UPSIDER, Inc.（2021年10月〜現在, 4年7ヶ月）: Go, TypeScript, Kotlin, Google Cloud Spanner。IBM Software Engineer（2018年10月〜2021年9月, 3年）: Python, R（データ分析・機械学習）。IBM System Engineer（2016年4月〜2018年9月, 2年6ヶ月）: Java, DB2（キャッシングローンの基幹Webサービス）。学歴: 九州大学 情報科学修士（2014年〜2016年）。自己紹介: Software engineer (mainly backend development) in the financial industry: Go, TS, Kotlin。スキル: TypeScript, Kotlin。",
+    "extracted_skills": ["Go", "TypeScript", "Kotlin", "Python", "Java"]
+  },
+  {
+    "slug": "kenkuwae",
+    "name": "桑江 健",
+    "linkedin_url": "https://www.linkedin.com/in/kenkuwae",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: Backend Engineer Freelance（2024年7月〜現在, 1年10ヶ月）: Python, Django REST Framework。前職: Senior Software Engineer at Fracta Leap（2022年5月〜2024年7月, 2年3ヶ月）: AWS, Python。System Engineer at SBX Corporation（2019年4月〜2022年3月, 3年）: Java, React.js。沖縄科学技術大学院大学（OIST）技術職員（2015年4月〜2019年3月, 4年）: Java, React.js。学歴: 琉球大学 情報工学科（2006年〜2011年）。自己紹介: Server Side Kotlin, Java, C/C++, C#, Python, NodeJS, React/Typescript。スキル: Django REST Framework, Big Data。",
+    "extracted_skills": ["Python", "Django", "React.js", "TypeScript", "Java", "AWS"]
+  },
+  {
+    "slug": "koya-kawahara-049662248",
+    "name": "Koya Kawahara",
+    "linkedin_url": "https://www.linkedin.com/in/koya-kawahara-049662248",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: ソフトウェアエンジニア at レバレジーズ（株）（2021年8月〜現在, 4年9ヶ月）: API設計・DB設計・FE/BEの開発。CakePHP→Laravelへのリプレイス、jQuery/scss→React/Next.js/Graph-QL/Material-UIへのリプレイス。スキル: Laravel, React.js, 他8件。学歴: 電気通信大学 情報学修士（2020年〜2022年）、学士（2018年〜2020年）。",
+    "extracted_skills": ["Laravel", "React.js", "Next.js", "GraphQL", "CakePHP", "TypeScript", "AWS"]
+  },
+  {
+    "slug": "yusuke-ueno-208b1a35",
+    "name": "UENO Yusuke",
+    "linkedin_url": "https://www.linkedin.com/in/yusuke-ueno-208b1a35",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: merpay Backend Engineer at Mercari, Inc.（2021年4月〜現在, 5年1ヶ月）: Go, Google Cloud Spanner。前職: Mobility Technologies Web Programmer/Backend Engineer（2020年4月〜2021年3月, 1年）: Go, gRPC, GraphQL。DeNA（2012年2月〜2020年3月, 8年2ヶ月）: ゲームプログラマー、Perl, MySQL, C++, Ruby, PHP, CakePHP, Python, Go。学歴: 早稲田大学 Computer Science学士（2006年〜2010年）。言語: Japanese母国語。ヘッドライン: Backend Engineer。",
+    "extracted_skills": ["Go", "PHP", "Python", "Ruby", "Perl", "CakePHP", "gRPC", "GraphQL"]
+  },
+  {
+    "slug": "naoya-ichibangase-792b8b16a",
+    "name": "Ichibangase Naoya",
+    "linkedin_url": "https://www.linkedin.com/in/naoya-ichibangase-792b8b16a",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: IT Specialist at IBM Japan Digital Services Company (IJDS)（2013年4月〜現在, 13年1ヶ月）。学歴: 中央大学 Law学士（2009年〜2012年）。自己紹介: フルスタックエンジニアとして業務アプリの開発や保守運用を担当。技術領域: Angular, Spring Framework, RDB: DB2, Oracle, SQL Server, グラフDB: Neo4j。開発言語: Java, TypeScript, Python, Go。ポジション: 開発チームのリーダー。",
+    "extracted_skills": ["Angular", "Spring Framework", "Java", "TypeScript", "Python", "Go"]
+  },
+  {
+    "slug": "yoshihisa-okada-984188169",
+    "name": "Okada Yoshihisa",
+    "linkedin_url": "https://www.linkedin.com/in/yoshihisa-okada-984188169",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "現職: Cloud Support Engineer at GlobalLogic（2024年12月〜現在, 1年5ヶ月）: JavaScript, Ruby。前職: System Engineer at Buoyancy（2021年7月〜2024年12月, 3年6ヶ月）: React.js, Ruby on Rails, 他10件。System Engineer at Winoo Inc.（2019年5月〜2021年7月, 2年3ヶ月）。学歴: 富山大学 経済学部学士（2012年〜2016年）。自己紹介: Ruby(Ruby on Rails), Javascript(Jquery, React, Vue), MySQL, PostgreSQL DynamoDB, Aws(EC2, ECS), Swift, Kotlin, Docker。",
+    "extracted_skills": ["Ruby on Rails", "React.js", "Vue.js", "JavaScript", "AWS", "MySQL", "PostgreSQL"]
+  },
+  {
+    "slug": "%E5%BA%B7%E4%BF%AE-%E9%88%B4%E6%9C%A8-9a206556",
+    "name": "鈴木 康修",
+    "linkedin_url": "https://www.linkedin.com/in/%E5%BA%B7%E4%BF%AE-%E9%88%B4%E6%9C%A8-9a206556",
+    "youtrust_url": null,
+    "batch": 4,
+    "profile_text": "ヘッドライン: Engineer Ruby/Ruby on Rails, Vue.js, AWS。現職: Webアプリケーションディベロッパー at AFTECH（2018年7月〜現在, 7年10ヶ月）。その他: トヨタ自動車 設備保全（2009年3月〜現在）。学歴: 岡崎工業高校 情報技術（2006年〜2009年）。",
+    "extracted_skills": ["Ruby on Rails", "Vue.js", "AWS"]
+  },
+  {
+    "slug": "%E6%82%A0%E5%A4%AA-%E4%B8%AD%E6%BA%9D-b90333175",
+    "name": "中溝 悠太",
+    "linkedin_url": "https://www.linkedin.com/in/%E6%82%A0%E5%A4%AA-%E4%B8%AD%E6%BA%9D-b90333175",
+    "youtrust_url": null,
+    "batch": 5,
+    "profile_text": "ヘッドライン: TypeScript, React.js / Next.js, MySQL, MongoDB, Unity, GCP。現職: Software Developer at Demae-can（2024年4月〜現在, 2年1ヶ月）: Kotlin, DDD。フリーランスWebディベロッパー（2018年8月〜現在, 7年9ヶ月）: CSS, Firebase, React.js。学歴: 大阪大学 工学部 環境・エネルギー工学科学士（2017年〜2021年）、京都大学 情報学研究科修士（2021年〜2023年）。スキル: Kotlin, ドメイン駆動設計。",
+    "extracted_skills": ["TypeScript", "React.js", "Next.js", "MySQL", "MongoDB", "Kotlin", "GCP", "Firebase"]
+  },
+  {
+    "slug": "koichi-kaneshige-a3445860",
+    "name": "Kaneshige Koichi",
+    "linkedin_url": "https://www.linkedin.com/in/koichi-kaneshige-a3445860",
+    "youtrust_url": null,
+    "batch": 5,
+    "profile_text": "ヘッドライン: 株式会社IMT - Webディベロッパー。現職: ITエンジニア at 株式会社IMT（2020年1月〜現在, 6年4ヶ月）。前職: iOS & Web Developer at 株式会社ディ・テクノ（2015年8月〜2019年12月, 4年5ヶ月）。Java Engineer at P&Wソリューションズ（2009年4月〜2015年5月, 6年2ヶ月）。学歴: 広島大学 機械工学学士（2003年〜2009年）。言語: 日本語（母国語）。自己紹介: 新卒から6年、Javaによる業務系ウェブアプリケーションの開発に従事。バックエンドのみでなく、html, javascriptによるフロントエンドの開発も経験。その後コンシューマ業界に転職し、iOSアプリ、および Ruby on Rails によるECサイトの設計、開発に携わる。",
+    "extracted_skills": ["Java", "JavaScript", "HTML", "Ruby on Rails", "iOS"]
+  },
+  {
+    "slug": "%E4%BC%8A%E7%B9%94-%E9%A6%AC%E5%A0%B4-a449b71a2",
+    "name": "馬場 伊織",
+    "linkedin_url": "https://www.linkedin.com/in/%E4%BC%8A%E7%B9%94-%E9%A6%AC%E5%A0%B4-a449b71a2",
+    "youtrust_url": null,
+    "batch": 5,
+    "profile_text": "現職: IT at AXA（2017年10月〜現在, 8年7ヶ月）。学歴: 会津大学 コンピュータ理工学科学部（2013年4月〜2017年9月）。自己紹介: JavaScript: 2年、Node.js: 2年、React.js: 2年、TypeScript: 2年、HTML: 2年、Java: 2年、JSP: 2年。スキル: Node.js, React.js。",
+    "extracted_skills": ["JavaScript", "Node.js", "React.js", "TypeScript", "HTML", "Java"]
+  },
+  {
+    "slug": "mitsuru-hashimoto-38913412b",
+    "name": "Mitsuru Hashimoto",
+    "linkedin_url": "https://www.linkedin.com/in/mitsuru-hashimoto-38913412b",
+    "youtrust_url": null,
+    "batch": 5,
+    "profile_text": "現職: Freelance Engineer（2018年8月〜現在, 7年9ヶ月）。学歴: 大阪大学 外国語学部イタリア語専攻（2011年〜2016年）。自己紹介: I use Nuxt.js and Ruby on Rails to create applications for automated management of web ads such as Google Ads. I use ECS on Fargate by AWS for infrastructure environment, and Terraform to manage infrastructure code. I'm a freelance front engineer. Especially I love Vue(Off course, I use React too)。スキル: Ruby on Rails, Nuxt.js, Terraform, AWS, MySQL。",
+    "extracted_skills": ["Nuxt.js", "Vue.js", "React", "Ruby on Rails", "AWS", "Terraform", "MySQL"]
+  },
+  {
+    "slug": "kinoshitaken",
+    "name": "Ken Kinoshita",
+    "linkedin_url": "https://www.linkedin.com/in/kinoshitaken",
+    "youtrust_url": null,
+    "batch": 5,
+    "profile_text": "現職: Software Engineer at Sustainability Page（2023年7月〜現在, 2年10ヶ月）: Front-End Development。Teacher at Kinder Kids Group（2020年9月〜現在）。学歴: Code Chrysalis Full-Stack Engineer（2022年8月〜2023年2月）。言語: English（母国語またはバイリンガル）、Filipino（母国語またはバイリンガル）。自己紹介: I am a software developer with experience in both front-end and back-end technologies. Skills: JavaScript, TypeScript, NodeJS, ExpressJS, React, HTML, CSS, REST API, PostgreSQL。",
+    "extracted_skills": ["JavaScript", "TypeScript", "Node.js", "React", "ExpressJS", "PostgreSQL"]
+  },
+  {
+    "slug": "abekoh",
+    "name": "Abe Kotaro",
+    "linkedin_url": "https://www.linkedin.com/in/abekoh",
+    "youtrust_url": null,
+    "batch": 5,
+    "profile_text": "現職: リードエンジニア at MICIN, Inc.（2021年11月〜2025年4月, 3年6ヶ月）: AWS, TypeScript。前職: ソフトウェアエンジニア at ヤフー株式会社（2018年4月〜2021年10月, 3年7ヶ月）: Java, Kubernetes。学歴: 九州大学 システム情報科学府情報知能工学専攻修士（2016年〜2018年）、工学部電気情報工学科学士（2012年〜2016年）。自己紹介: ソフトウェアエンジニア。主にバックエンドが得意ですが、フロントもインフラも一通りやってます。Java, Go, TypeScript, Rust, React.js, Spring Boot, Kubernetes, Google Cloud Platform。",
+    "extracted_skills": ["Java", "Go", "TypeScript", "Rust", "React.js", "Spring Boot", "Kubernetes", "GCP"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "atsushi-akisue",
+    "name": "秋末 敦史",
+    "candidate_id": 20557,
+    "linkedin_url": "https://www.linkedin.com/in/atsushi-akisue",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: フリーランス（2024〜現在）。前職: Recruit Co.,Ltd（2018-2024, 7年）、木星ラヂヲ、アナハイムテクノロジー、hon.jp。学歴: 横浜国立大学 情報メディア環境修士。自己紹介: バックエンド中心にフロントエンド、インフラも経験。実務歴10年以上。スキル: Java, Python, Go, Ruby, Perl, Shell, Django, Jenkins, Docker, Rancher, AWS, GAE, LAMP環境。",
+    "extracted_skills": ["Java", "Python", "Go", "Ruby", "Perl", "Django", "Docker", "AWS"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "shingo-hirasawa",
+    "name": "平澤 真悟",
+    "candidate_id": 33052,
+    "linkedin_url": "https://www.linkedin.com/in/shingo-hirasawa",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: ソフトウェアエンジニア フリーランス（2023年1月〜現在, 3年5ヶ月）、新潟在住。前職: Dental Prediction iOS/AndroidアプリエンジニアおよびWebフロントエンド（2024年7月〜2025年3月, 9ヶ月）: Dart/Flutter, React, AWS, CodeMagic, GitHub Actions。Spatial Pleasure フロントエンドテックリード（2023年9月〜2024年6月, 10ヶ月）: React, Vite, deck.gl, Vercel, GitHub Actions。Everforth Flutterエンジニア/エンジニアリングマネージャー（2020年11月〜2023年1月, 2年3ヶ月）。BULB Flutterエンジニア/EM（2018年8月〜2020年9月, 2年2ヶ月）。学歴: 東京工芸大学 インタラクティブメディア学科。トップスキル: React.js, JavaScript, AWS, Java, Python。自己紹介: フロントエンド軸足、Firebase, Supabase, GitHub Actions, Vercel AI SDKも経験。",
+    "extracted_skills": ["React.js", "JavaScript", "AWS", "Java", "Python", "Flutter", "Dart", "TypeScript"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E7%B4%94%E4%B9%9F-%E7%BE%BD%E7%9F%A2-47a462166",
+    "name": "羽矢 純也",
+    "candidate_id": 41310,
+    "linkedin_url": "https://www.linkedin.com/in/%E7%B4%94%E4%B9%9F-%E7%BE%BD%E7%9F%A2-47a462166",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: 株式会社タイミー Platform Engineer（2024年4月〜現在, 2年2ヶ月）。前職: 株式会社いい生活 Engineer（2019年8月〜2024年4月, 4年9ヶ月）。株式会社FRONTEO エンジニア（2018年11月〜2019年7月, 9ヶ月）、セキュリティアナリスト（2018年4月〜2018年11月, 8ヶ月）。学歴: 大阪大学 宇宙地球科学修士（2011〜2018年）。スキル: オブジェクト指向設計, Git。Web技術の明示的記載なし。",
+    "extracted_skills": ["Git"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E5%91%A8%E5%B9%B3-%E8%90%A9%E5%8E%9F-057b8074",
+    "name": "萩原 周平",
+    "candidate_id": 2179611,
+    "linkedin_url": "https://www.linkedin.com/in/%E5%91%A8%E5%B9%B3-%E8%90%A9%E5%8E%9F-057b8074",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: コインチェック株式会社 エンジニア（2017年11月〜現在, 8年7ヶ月）。前職: Flect Co. Ltd エンジニア（2016年10月〜2017年11月, 1年2ヶ月）。日本タタ・コンサルタンシー Software Engineer（2013年4月〜2016年10月, 3年7ヶ月）。学歴: 東北大学 経営学科（2009〜2013年）。自己紹介: SREとして働いています。Rust, TypeScript, JavaScriptで最近はよくプログラムを書きます。スキル: Java, JavaScript。資格: 応用情報技術者, 基本情報技術者。",
+    "extracted_skills": ["Java", "JavaScript", "TypeScript", "Rust"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "kosuke-g-67231b308",
+    "name": "Kosuke G.",
+    "candidate_id": 3997371,
+    "linkedin_url": "https://www.linkedin.com/in/kosuke-g-67231b308",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: 弁護士ドットコム Software Engineer（2024年11月〜現在, 1年7ヶ月）。前職: 株式会社JAM Software Engineer（2019年12月〜2024年10月, 4年11ヶ月）: Java, Springboot, TypeScript, React.js, Next.js。株式会社作作 Software Engineer（2018年4月〜2019年11月, 1年8ヶ月）: Java, JavaScript。DTPオペレーター（2011年4月〜2018年3月）。学歴: 駒澤大学 経営学科（2007〜2011年）。トップスキル: React.js, TypeScript, JavaScript, AWS, Go。自己紹介: フロントエンド（React, Next.js, Angular, TypeScript）+ バックエンド（Java, Go, Python）+ Terraform, Datadog, Google Analytics。資格: 応用情報技術者試験。",
+    "extracted_skills": ["React.js", "TypeScript", "JavaScript", "AWS", "Go", "Java", "Next.js", "Terraform"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "kaoruyamaoka",
+    "name": "Kaoru YAMAOKA",
+    "candidate_id": 5057497,
+    "linkedin_url": "https://www.linkedin.com/in/kaoruyamaoka",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: SOMPO Light Vortex リードエンジニア（2024年4月〜現在, 2年2ヶ月）、Senior Engineer（2023年1月〜）。前職: Nikken Sekkei Computational Design Specialist（2017年4月〜2022年12月, 5年9ヶ月）。学歴: 東京大学工学系研究科建築学専攻 工学修士（2012〜2014年）。トップスキル: TypeScript, React.js, GIS。自己紹介: Web app development -- both frontend (React) and backend (Node.js), IoT, data analysis/visualisation including IoT and geospatial data。",
+    "extracted_skills": ["TypeScript", "React.js", "Node.js", "GCP", "GIS"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "imamori",
+    "name": "Daichi Imamori",
+    "candidate_id": 5175965,
+    "linkedin_url": "https://www.linkedin.com/in/imamori",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: Preferred Networks, Inc. Software Engineer（2017年5月〜現在, 9年1ヶ月）。前職: サイバーエージェント Software Engineer（2016年4月〜2017年4月, 1年1ヶ月）。学歴: 京都大学 工学部修士（2010〜2014年）。自己紹介: Software engineer : 4.5 years. Skills : Typescript/React/Python/Machine learning/Docker。スキル: JavaScript, HTML。",
+    "extracted_skills": ["TypeScript", "React", "Python", "Docker", "JavaScript"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "kei-kitai-japan",
+    "name": "Kei Kitai",
+    "candidate_id": 5213943,
+    "linkedin_url": "https://www.linkedin.com/in/kei-kitai-japan",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: Yahoo! JAPAN Software Engineer（2009年4月〜現在, 17年2ヶ月）。学歴: 日本大学 数理情報工学修士（2003〜2009年）。自己紹介: 2009-2019: Yahoo Japan、バックエンド（PHP）、フロントエンド（JavaScript, AngularJS）、マークアップエンジニア、Cloud Foundry, Concourse CI/CDなどの経験。スキル: Cloud Computing(Cloud Foundry), CI/CD(Concourse)。",
+    "extracted_skills": ["PHP", "JavaScript", "AngularJS", "Cloud Foundry"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "toshiki-mochizuki-658396157",
+    "name": "Toshiki Mochizuki",
+    "candidate_id": 5214118,
+    "linkedin_url": "https://www.linkedin.com/in/toshiki-mochizuki-658396157",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: フリーランス Webアプリケーションエンジニア（2022年2月〜現在, 4年4ヶ月）、北海道 札幌在住。生鮮食品系ECサイト: バックエンド(Rails)メイン、フロント(React)も対応。前職: (株)ハウインターナショナル Webアプリケーションディベロッパー（2019年4月〜2021年12月, 2年9ヶ月）。学歴: 法政大学 経営工学（2015〜2019年）。スキル: React.js, TypeScript。",
+    "extracted_skills": ["Ruby on Rails", "React.js", "TypeScript"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "takumi-i-175590187",
+    "name": "Takumi I.",
+    "candidate_id": 5227515,
+    "linkedin_url": "https://www.linkedin.com/in/takumi-i-175590187",
+    "youtrust_url": null,
+    "batch": "73800-1",
+    "profile_text": "現職: IBM ITスペシャリスト（2023年4月〜現在, 3年2ヶ月）。学歴: 東京大学 言語情報科学MA（2021〜2023年）、University of Leeds（交換留学）。自己紹介: BFF (Backend for Frontend) エンジニア。B2CモバイルアプリのBFF設計・開発・テスト担当。金融および小売領域経験。Google Cloud, AWS経験。AI-driven開発に関心。スキル: Node.js, API開発。資格: Google Associate Cloud Engineer, AWS Partner Agentic AI Essentials。",
+    "extracted_skills": ["Node.js", "Google Cloud", "AWS"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "kaishu-shimamoto-0810",
+    "name": "Kaishu Shimamoto",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/kaishu-shimamoto-0810",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "フツパー株式会社 Web Developer。TypeScript/React/Next.js/PHPを使用したWeb開発。奈良工業高専卒、カナダ留学歴あり。フルスタックWebエンジニア。",
+    "extracted_skills": ["TypeScript", "React", "Next.js", "PHP"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "mei-takahashi-073854159",
+    "name": "Mei Takahashi",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/mei-takahashi-073854159",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "株式会社エクサウィザーズ エンジニア。Python/Go/TypeScript/Node.js/AWS使用。早稲田大学大学院卒。Google・PFNインターン経験あり。",
+    "extracted_skills": ["Python", "Go", "TypeScript", "Node.js", "AWS"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "hideto-arai-533710210",
+    "name": "Hideto Arai",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/hideto-arai-533710210",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "伊藤忠テクノソリューションズ(CTC) システムエンジニア。TypeScript/Angular/PowerAutomate使用。神戸市外国語大学卒。",
+    "extracted_skills": ["TypeScript", "Angular", "PowerAutomate"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E5%A4%A7-%E5%8A%A0%E8%97%A4-720b031b7",
+    "name": "加藤 大",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/%E5%A4%A7-%E5%8A%A0%E8%97%A4-720b031b7",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "ヤフー株式会社 Webエンジニア（8年2ヶ月）。Vue.js/Spring Boot使用のフルスタック開発。埼玉大学卒。",
+    "extracted_skills": ["Vue.js", "Spring Boot", "JavaScript"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "nao-yonashiro-21a72254",
+    "name": "Nao Yonashiro",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/nao-yonashiro-21a72254",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "株式会社リクルート バックエンド開発者（2021年4月〜現在, 5年2ヶ月）。前職: リクルートテクノロジーズ バックエンドエンジニア（2017年4月〜2021年3月, 4年）GoによるAPIサーバ開発、JavaでのAPパフォーマンスチューニング。Go標準ライブラリ・Kubernetes・kanikoなどOSSコントリビュート実績。Go Conference 2018/2019で発表。C++, Java, Go, Python, JavaScriptを使用。沖縄高専 メディア情報工学（2010-2015）。",
+    "extracted_skills": ["Go", "Java", "Python", "JavaScript", "C++"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E5%AE%8F%E6%A8%B9-%E5%A4%A7%E9%81%93-b8a5a843",
+    "name": "大道 宏樹",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/%E5%AE%8F%E6%A8%B9-%E5%A4%A7%E9%81%93-b8a5a843",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "CADDi ITエンジニア（2026年2月〜現在）。株式会社Stock エンジニア（2014年4月〜2025年7月, 11年4ヶ月）: Ruby on Rails/Angular/HTML5/CSS3/Cordova/Ionicを使用した自社サービス開発（情報コミュニケーションツール、EC分析プラットフォーム等）。Accenture SE（2009年9月〜2013年2月, 3年6ヶ月）: SalesForce/Apex開発。東京理科大学 物理学（2004-2009）。",
+    "extracted_skills": ["Ruby on Rails", "Angular", "HTML", "CSS", "JavaScript", "SalesForce"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "takeshi-inoue-8373b2249",
+    "name": "Takeshi Inoue",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/takeshi-inoue-8373b2249",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "Sansan株式会社 Software Engineer（2022年4月〜現在, 4年2ヶ月）。TypeScript/React.js使用。ヘッドライン: 'Who loves React & TypeScript & ServersideKotlin'。Zennにてbulletproof-react、React Query等の記事を執筆。大阪大学（2013-2018）。",
+    "extracted_skills": ["React", "TypeScript", "Kotlin"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E8%88%9C%E4%B9%9F-%E9%88%B4%E6%9C%A8-bab788287",
+    "name": "鈴木 舜也",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/%E8%88%9C%E4%B9%9F-%E9%88%B4%E6%9C%A8-bab788287",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "LINEヤフー株式会社 アプリケーションエンジニア（2023年10月〜現在, 2年8ヶ月）: Next.js、NestJS、Kotlin、Spring Bootを使用。ヤフー株式会社 アプリケーションエンジニア（2023年4月〜2023年10月, 7ヶ月）: React.js。自己紹介: フロントエンドが得意領域、Next.jsベース+LINEミニアプリ開発。スキル: Kotlin, Spring Boot, Next.js, NestJS, React.js。和歌山大学大学院 システム工学 修士（2021-2023）。",
+    "extracted_skills": ["Next.js", "NestJS", "React", "TypeScript", "Kotlin", "Spring Boot"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "kohei-ogura",
+    "name": "小椋 幸平",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/kohei-ogura",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "エン株式会社 Software Engineer（2025年1月〜現在, 1年5ヶ月）: Laravel/Ruby on Rails。Fenrir Inc. Software Engineer（2022年11月〜2024年12月, 2年2ヶ月）: LLMベースチャットプラットフォーム開発、バックエンドアーキテクチャ設計、Laravel/OpenAPI。M3 Group Software Engineer（2021年8月〜2022年10月, 1年3ヶ月）: PHP/JavaScript。System Integrator Programmer（2020年4月〜2021年7月, 1年4ヶ月）: Laravel/JavaScript。フリーランス GuriLab（2021年3月〜2023年12月, 2年10ヶ月）: Laravel/AWS。スキル: Ruby on Rails, Laravel, PHP, JavaScript, AWS。関西外国語大学 Global Communication（2016-2020）。",
+    "extracted_skills": ["Laravel", "Ruby on Rails", "PHP", "JavaScript", "AWS"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E8%93%AE%E5%8F%B8-%E9%A6%99%E6%A4%8E-305580154",
+    "name": "香椎 蓮司",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/%E8%93%AE%E5%8F%B8-%E9%A6%99%E6%A4%8E-305580154",
+    "youtrust_url": null,
+    "batch": "73800-3",
+    "profile_text": "DIGGLE株式会社 エンジニア（2024年4月〜現在）。株式会社wild idea エンジニア（2022年7月〜2024年3月, 1年9ヶ月）: IoTデータ管理プラットフォーム開発。天晴データネット システムエンジニア（2020年4月〜2022年6月, 2年3ヶ月）: ホテル向けIoTプラットフォーム・保険業務システム開発、ブリッジSE。Commude Philippines ブリッジSE（2018年7月〜2019年2月, 8ヶ月）: ウェブサイト制作。使用技術: Python, Java, Ruby, TypeScript。スキル: Java, Python, Ruby, TypeScript。福井大学 情報メディア工学 修士/学士（2013-2020）。",
+    "extracted_skills": ["Python", "Java", "Ruby", "TypeScript"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E7%9B%B4%E6%A8%B9-%E4%BC%8A%E8%97%A4-ab586b214",
+    "name": "伊藤 直樹",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/%E7%9B%B4%E6%A8%B9-%E4%BC%8A%E8%97%A4-ab586b214",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "シンプレクス・ホールディングス株式会社(Simplex) スタッフ（2022年6月〜現在, 4年）: メガバンク系証券会社のポータルサイトリプレイス・システム改修。Java/JS/HTML/CSS/Spring/Vue.js/Python/Perl/SQL/AWS/GitHub Actions使用。IF・バッチチームリード、設計・開発・テストリード担当。研修中（2022年4月〜5月）。大阪市立大学 社会福祉学士（2018-2022）。資格: 応用情報技術者試験, AWS SAA。",
+    "extracted_skills": ["Java", "JavaScript", "Spring", "Vue.js", "Python", "SQL", "AWS"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E6%85%8E%E5%A4%AA%E9%83%8E-%E5%B7%9D%E7%AB%AF-1900041b9",
+    "name": "川端 慎太郎",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/kawabatas",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "パルス株式会社 Webディベロッパー（2020年3月〜現在, 6年3ヶ月）。イグニス Webディベロッパー（2017年9月〜2020年2月, 2年6ヶ月）。サイバーエージェント Webディベロッパー（2014年4月〜2017年8月, 3年5ヶ月）。自己紹介: 「Webフロントエンドエンジニアとしてキャリアをスタートし、サーバーサイド、クラウドインフラと技術領域を広げてきました。いわゆるフルスタック的なことができます。秒間10万リクエストを満たす負荷検証経験あり。」スキル: Go, Node.js, Google Cloud Professional Cloud Architect。神戸大学 電気電子工学 修士（2008-2014）。",
+    "extracted_skills": ["Go", "Node.js", "JavaScript", "Google Cloud"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "%E6%B5%A9%E5%B0%86-%E5%B2%A9%E5%B1%B1-061976198",
+    "name": "岩山 浩将",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/%E6%B5%A9%E5%B0%86-%E5%B2%A9%E5%B1%B1-061976198",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "LINE Corp SRE（2023年3月〜現在, 3年3ヶ月）。LINE Growth Technology ソフトウェアエンジニア（2021年4月〜2023年3月, 2年）。CaSy リードエンジニア（2018年12月〜2021年3月, 2年4ヶ月）。ウイングアーク1st Software Engineer（2016年9月〜2018年12月, 2年4ヶ月）。DeNA Software Engineer（2014年4月〜2016年8月, 2年5ヶ月）。自己紹介: 「SRE/infra lead, AuthN/AuthZ expert, Techlead, Architect, full-stack developer経験あり。Backend: Ruby(RoR)/Java/Kotlin(SpringBoot)/Node.js/TypeScript/Python。Frontend: TypeScript(React.js)。Infrastructure: AWS, k8s, Terraform, Istio/Envoy, ArgoCD。」北海道大学 Computer Software Engineering 修士（2012-2014）。",
+    "extracted_skills": ["Ruby on Rails", "Java", "Kotlin", "Node.js", "TypeScript", "React", "AWS", "Kubernetes", "Terraform"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "koki-hashino-61b975269",
+    "name": "Koki Hashino",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/koki-hashino-61b975269",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "株式会社いい生活 ソフトウェアエンジニア（2024年2月〜現在, 2年4ヶ月）: C#とSonarqube。明電舎 プログラマー（2020年3月〜2023年10月, 3年8ヶ月）: 社内CADシステム開発(C#/AutoLISP)、DX推進部門でReact/TypeScriptモックアップ作成、出向でFlask/Python/TypeScript/React（予約システム）+Flutter（電話帳アプリ）開発。スキル: AutoLISP, React.js, TypeScript, C#, Python, SQL, SonarQube。米子工業高等専門学校 電気情報工学（2015-2020）。",
+    "extracted_skills": ["React", "TypeScript", "Python", "Flask", "C#", "JavaScript"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "sotalbireo",
+    "name": "Kyo Suda",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/sotalbireo",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "株式会社スカイシア SES（2021年5月〜現在, 5年1ヶ月）: TypeScript, Vue.js。フリーランス プログラマー（2020年8月〜現在, 5年10ヶ月）: TypeScript/PHP + Nuxt.js/Laravel の建築系業務Webソフトウェア開発。モークワン アシスタントフロントエンドエンジニア（2013年6月〜2020年3月, 6年10ヶ月）: フロントエンド制作補助。自己紹介: 「主にWebサイト・Webアプリの開発を生業とするITエンジニア。技術選定から保守まで一通り経験。」スキル: Nuxt.js, Vue.js, TypeScript, PHP, Laravel, Git。東京理科大学 経営工学（2012-2019）。",
+    "extracted_skills": ["Nuxt.js", "Vue.js", "TypeScript", "PHP", "Laravel"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "hiroshi-suzuki-04729b137",
+    "name": "Hiroshi Suzuki",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/hiroshi-suzuki-04729b137",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "Upwork freelancer Senior Software Developer（2016年12月〜現在, 9年6ヶ月）。Sendai Tech Senior Software Engineer（2015年8月〜2016年12月, 1年5ヶ月）。自己紹介: 「senior full stack developer with 6+ years of web developing experiences. eCommerce, Social Websites, LMS, Booking System, Healthcare Portal, REST/SOAP API開発経験。MEAN Stack, LAMP Stack, Laravel, Ruby on Rails, Node.js, Angular, React, PHP frameworks使用。」スキル: Node.js, React.js, Ruby on Rails, Laravel, Angular, PHP。新潟大学 Information Technology BE（2007-2011）。",
+    "extracted_skills": ["Node.js", "React", "Ruby on Rails", "Laravel", "Angular", "PHP"]
+  },
+  {
+    "list_id": 73800,
+    "slug": "0keita",
+    "name": "吉田 圭汰",
+    "candidate_id": null,
+    "linkedin_url": "https://www.linkedin.com/in/0keita",
+    "youtrust_url": null,
+    "batch": "73800-4",
+    "profile_text": "PayPay株式会社 Software Engineer（2019年8月〜現在, 6年10ヶ月）: AWS, Kotlin。カカクコム Tech Lead（2018年10月〜2019年7月, 10ヶ月）+ Software Engineer（2015年4月〜2018年10月, 3年7ヶ月）: Ruby on Rails 5/JavaScript/jQuery/MySQL/Linuxでバックエンド開発。1000万MAUのWebメディア・ECサイト構築。iOSアプリ（Swift, 40 ViewControllers）のリードも担当。University of York Computer Science MS（2021-2023）、京都大学 Natural Products Chemistry学士（2011-2015）。",
+    "extracted_skills": ["Ruby on Rails", "JavaScript", "Kotlin", "AWS", "Swift", "MySQL"]
+  }
+]

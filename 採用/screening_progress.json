@@ -1,0 +1,45 @@
+{
+  "list_url": "https://app.recruit-marker.jp/list/person-list/73800",
+  "list_name": "0505若手エンジニア",
+  "list_id": 73800,
+  "total_candidates": 45,
+  "job_id": 2844,
+  "status": "in_progress",
+  "batches": [
+    {
+      "batch_num": "73800-1",
+      "candidate_ids": [20557, 33052, 41310, 2179611, 3997371, 5057497, 5175965, 5213943, 5214118, 5227515],
+      "status": "completed"
+    },
+    {
+      "batch_num": "73800-2",
+      "candidate_ids": [5242911, 5350862, 5371929, 5389636, 5410297, 5420397, 5422309, 5526186, 5582621, 5674912],
+      "status": "completed"
+    },
+    {
+      "batch_num": "73800-3",
+      "slugs": ["kaishu-shimamoto-0810", "mei-takahashi-073854159", "hideto-arai-533710210", "%E5%A4%A7-%E5%8A%A0%E8%97%A4-720b031b7", "nao-yonashiro-21a72254", "%E5%AE%8F%E6%A8%B9-%E5%A4%A7%E9%81%93-b8a5a843", "takeshi-inoue-8373b2249", "%E8%88%9C%E4%B9%9F-%E9%88%B4%E6%9C%A8-bab788287", "kohei-ogura", "%E8%93%AE%E5%8F%B8-%E9%A6%99%E6%A4%8E-305580154"],
+      "status": "completed"
+    },
+    {
+      "batch_num": "73800-4",
+      "slugs": ["%E7%9B%B4%E6%A8%B9-%E4%BC%8A%E8%97%A4-ab586b214", "%E6%85%8E%E5%A4%AA%E9%83%8E-%E5%B7%9D%E7%AB%AF-1900041b9", "%E6%B5%A9%E5%B0%86-%E5%B2%A9%E5%B1%B1-061976198", "koki-hashino-61b975269", "sotalbireo", "hiroshi-suzuki-04729b137", "0keita"],
+      "status": "completed"
+    }
+  ],
+  "processed_batches": 4,
+  "linkedin_slugs_collected": [
+    "atsushi-akisue", "shingo-hirasawa", "%E7%B4%94%E4%B9%9F-%E7%BE%BD%E7%9F%A2-47a462166",
+    "%E5%91%A8%E5%B9%B3-%E8%90%A9%E5%8E%9F-057b8074", "kosuke-g-67231b308", "kaoruyamaoka",
+    "imamori", "kei-kitai-japan", "toshiki-mochizuki-658396157", "takumi-i-175590187",
+    "%E5%AD%9D%E6%B4%B8-%E4%BD%90%E8%97%A4-3575a41a9", "fumiya-suzuki-618a27233",
+    "ryosuke-miyahara-33435012b", "%E5%B0%86%E7%A8%94-%E5%B1%B1%E7%94%B0-74147422a",
+    "%E7%A8%9C%E5%B9%B3-%E4%B8%89%E4%BA%95-b789a7205", "yoshito-mitsui-1b21b5107",
+    "aline-house", "%E6%84%9B%E6%96%97-%E7%A7%8B%E5%B1%B1-b1b826268",
+    "%E6%99%BA%E5%93%89-%E6%A3%AE%E5%B1%B1-a05076162", "keisuke-matsumoto-6a0353224"
+  ],
+  "next_batch_slugs": [],
+  "remaining_slugs": [],
+  "status": "completed",
+  "last_updated": "2026-05-07T05:00:00Z"
+}
